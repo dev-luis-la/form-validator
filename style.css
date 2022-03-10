@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Forum&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300;400&family=Rubik&family=Syne+Mono&family=Varela+Round&display=swap');
 
   body {
     background-color: #FAD961;
@@ -70,16 +69,16 @@
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
   }
-  form input[type="button"] {
+  form input[type="submit"] {
     margin-top: 10px;
     width: 150px;
     font-size: 1rem;
   }
-  form input[type="button"]:hover {
+  form input[type="submit"]:hover {
     cursor: pointer;
   }
-  form input[type="button"]:active {
-    background: rgba(255, 255, 255, 0.2);
+  form input[type="submit"]:active {
+    background: rgba(202, 173, 7, 0.87);
   }
   form:hover {
     margin: 4px;

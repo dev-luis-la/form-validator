@@ -11,23 +11,23 @@
             <form id="form" >
               <div class="form-group">
               <p>Let's Sign Up</p>
-              <input type="text" placeholder="First name" id="name">
+              <input type="text" placeholder="First name" id="name" required minlength="3" max="14">
               <input type="text" placeholder="Last name" id="lastName" required><br>
-              <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+              <input type="tel" name="phone" id="phone" placeholder="Phone Number" required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
               <input type="email" placeholder="Email" id="email" required><br>
-              <input type="password" placeholder="Password" id="password1" required>
-              <input type="password" placeholder="Confirm Password" id="password2" required><br>
-
+              <input type="password" placeholder="Password (Min. 8 Characters)" id="password1" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+               title="Please include 1 Upppercase, 1 Lower case, 1 Number">
+              <input type="password" placeholder="Confirm Password" id="password2" required
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"><br>
               <input type="submit" value="register"><br>
+              
               </div>
             </form>
             <!-- error/ success -->
-            <div class="message-container">
-              <h3 id="message">Don't Hesitate!</h3>
-            </div>
+           
             <div class="drops">
               <div class="drop drop-1"></div>
-              <div class="drop drop-2"></div>
               <div class="drop drop-3"></div>
               <div class="drop drop-4"></div>
               <div class="drop drop-5"></div>
