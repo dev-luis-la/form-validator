@@ -147,7 +147,7 @@
     left: 50%;
   }
   form {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
     padding: 3em;
     height: 390px;
     border-radius: 20px;
@@ -180,7 +180,7 @@
     text-shadow: none;
   }
   form input {
-    background: transparent;
+    background: transparent  ;
     width: 200px;
     padding: 1em;
     margin-bottom: 2em;
@@ -225,7 +225,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }
   .drop {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     border-left: 1px solid rgba(255, 255, 255, 0.3);
